@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "type": "TRUE_FALSE",
+    "text":"Jetpack Compose is a UI toolkit for building Android apps.",
+    "options": ["True", "False"],
+    "correctAnswers":[0]
+  },
+  {
+    "id": 2,
+    "type":"TRUE_FALSE",
+    "text":"Android applications run on the JVM.",
+    "options": ["True", "False"],
+    "correctAnswers":[1]
+  },
+  {
+    "id": 3,
+    "type":"TRUE_FALSE",
+    "text":"Kotlin is the recommended language for Android development.",
+    "options": ["True", "False"],
+    "correctAnswers":[0]
+  },
+  {
+    "id": 4,
+    "type":"TRUE_FALSE",
+    "text":"Android services can run in the background without a UI.",
+    "options": ["True", "False"],
+    "correctAnswers":[0]
+  },
+  {
+    "id": 5,
+    "type":"TRUE_FALSE",
+    "text":"Every Android application must have at least one activity.",
+    "options": ["True", "False"],
+    "correctAnswers":[1]
+  },
+  {
+    "id": 6,
+    "type":"SINGLE_CHOICE",
+    "text":"Which component is responsible for handling UI logic in Jetpack Compose?",
+    "options":[
+      "Activity",
+      "Fragment",
+      "Composable",
+      "Service"
+    ],
+    "correctAnswers":[2]
+  },
+  {
+    "id": 7,
+    "type":"SINGLE_CHOICE",
+    "text":"Which Jetpack library is used for dependency injection?",
+    "options":[
+      "LiveData",
+      "Hilt",
+      "DataStore",
+      "ViewModel"
+    ],
+    "correctAnswers":[1]
+  },
+  {
+    "id": 8,
+    "type":"SINGLE_CHOICE",
+    "text":"Which of the following is NOT a lifecycle method in an Activity?",
+    "options":[
+      "onStart",
+      "onPause",
+      "onInitialize",
+      "onResume"
+    ],
+    "correctAnswers":[2]
+  },
+  {
+    "id": 9,
+    "type":"SINGLE_CHOICE",
+    "text":"Which tool is used for debugging and analyzing logs in Android development?",
+    "options":[
+      "ADB",
+      "Linter",
+      "Proguard",
+      "Gradle"
+    ],
+    "correctAnswers":[0]
+  },
+  {
+    "id": 10,
+    "type":"SINGLE_CHOICE",
+    "text":"What is the main programming language used in Jetpack Compose?",
+    "options":[
+      "Java",
+      "Swift",
+      "Kotlin",
+      "Dart"
+    ],
+    "correctAnswers":[2]
+  },
+  {
+    "id": 11,
+    "type":"MULTI_CHOICE",
+    "text":"Which of the following are Android architecture components?",
+    "options":[
+      "ViewModel",
+      "LiveData",
+      "SharedPreferences",
+      "Room"
+    ],
+    "correctAnswers":[
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 12,
+    "type":"MULTI_CHOICE",
+    "text":"Which of these are Jetpack Compose UI elements?",
+    "options":[
+      "Column",
+      "RecyclerView",
+      "Box",
+      "LazyColumn"
+    ],
+    "correctAnswers":[
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 13,
+    "type":"MULTI_CHOICE",
+    "text":"Select Android threading options.",
+    "options":[
+      "Thread",
+      "Handler",
+      "LiveData",
+      "Coroutine"
+    ],
+    "correctAnswers":[
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 14,
+    "type":"MULTI_CHOICE",
+    "text":"Which of these are Android Jetpack libraries?",
+    "options":[
+      "Room",
+      "WorkManager",
+      "Dagger",
+      "Navigation"
+    ],
+    "correctAnswers":[
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 15,
+    "type":"MULTI_CHOICE",
+    "text":"Which elements can be used to store persistent data in Android?",
+    "options":[
+      "SharedPreferences",
+      "Room",
+      "Intent",
+      "DataStore"
+    ],
+    "correctAnswers":[
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 16,
+    "type":"TEXT",
+    "text":"What is the latest Android version?",
+    "options": ["14"],
+    "correctAnswers":[0]
+  },
+  {
+    "id": 17,
+    "type":"TEXT",
+    "text":"What is the name of the official Android IDE?",
+    "options": ["Android Studio"],
+    "correctAnswers":[0]
+  },
+  {
+    "id": 18,
+    "type":"TEXT",
+    "text":"Which component is used to fetch data from a remote server?",
+    "options": ["Retrofit"],
+    "correctAnswers":[0]
+  },
+  {
+    "id": 19,
+    "type":"TEXT",
+    "text":"Which XML file is used to define the app’s theme?",
+    "options": ["themes.xml"],
+    "correctAnswers":[0]
+  },
+  {
+    "id": 20,
+    "type":"TEXT",
+    "text":"Which function in Jetpack Compose is used to define UI elements?",
+    "options": ["Composable"],
+    "correctAnswers":[0]
+  }
+]

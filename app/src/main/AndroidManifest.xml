@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quizapp">
+
+    <!-- Allow the app to use internet and other permissions (if required in future) -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Define the main activity -->
+    <application
+        android:name=".QuizApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Quiz App"
+        android:theme="@style/Theme.QuizApp"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true">
+
+        <!-- Main Activity to launch the app -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Quiz App Activity"
+            android:theme="@style/Theme.QuizApp"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask">
+
+            <!-- Intent filter to mark the entry point of the app -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
