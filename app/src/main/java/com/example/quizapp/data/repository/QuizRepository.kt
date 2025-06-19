@@ -17,6 +17,6 @@ class QuizRepository(private val context: Context) {
         val jsonString = context.assets.open("questions.json").bufferedReader().use { it.readText() }
         val questionListType = object : TypeToken<List<Question>>() {}.type
         val questions: List<Question> = gson.fromJson(jsonString, questionListType)
-        emit(questions) // Emit the list inside Flow
-    }.flowOn(Dispatchers.IO) // Ensure work is done on IO thread
+        emit(questions)
+    }.flowOn(Dispatchers.IO) 
 }
