@@ -23,7 +23,7 @@ fun QuizScreen(viewModel: QuizViewModel = hiltViewModel()) {
     if (currentQuestion != null) {
         QuestionContent(currentQuestion!!, viewModel)
     } else {
-        CircularProgressIndicator() // Show a loader while waiting for data
+        CircularProgressIndicator()
     }
 }
 
