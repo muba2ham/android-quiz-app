@@ -18,7 +18,7 @@ class QuizViewModel @Inject constructor(private val getQuestionsUseCase: GetQues
     private val _questions = MutableStateFlow<List<Question>>(emptyList())
     private var _currentQuestionIndex = MutableStateFlow(0)
 
-    val currentQuestion: StateFlow<Question?> = MutableStateFlow(null) // Allow null at first
+    val currentQuestion: StateFlow<Question?> = MutableStateFlow(null)
 
     init {
         viewModelScope.launch {
@@ -26,7 +26,7 @@ class QuizViewModel @Inject constructor(private val getQuestionsUseCase: GetQues
                 if (fetchedQuestions.isNotEmpty()) {
                     _questions.value = fetchedQuestions
                     _currentQuestionIndex.value = 1
-                    (currentQuestion as MutableStateFlow).value = fetchedQuestions[0] // Assign first question
+                    (currentQuestion as MutableStateFlow).value = fetchedQuestions[0]
                 }
             }
         }
